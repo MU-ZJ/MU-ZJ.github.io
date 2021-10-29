@@ -2,6 +2,7 @@
 #+AUTHOR: Zachary Murphy
 #+OPTIONS: num:nil timestamp:nil author:nil
 #+SETUPFILE: /home/wombat/Github/org-html-themes/org/theme-readtheorg-local.setup
+#+EXPORT_FILE_NAME: index.html
 
 * Todo
 - [X] Remove numbers from headers, most likely an org export option needs toggled or a tag needs added.
