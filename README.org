@@ -6,8 +6,10 @@
 #+STARTUP: inlineimages
 #+HTML_HEAD_EXTRA: <style type="text/css">.title, h4 {text-align: center !important;}</style>
 
+* Website is now disconnected from the readme. Make all further changes directly to the HTML/CSS.
+
 #+ATTR_HTML: :target _blank :style text-align: center;
-[[https://github.com/MU-ZJ][Github]] - [[https://www.linkedin.com/in/zachary-murphy-33249a20b/][LinkedIn]]
+[[https://github.com/MU-ZJ][Github]] - [[https://www.linkedin.com/in/zachary-murphy-33249a20b/][LinkedIn]] - [[file:./assets/murphy-zachary-resume-2021.pdf][Resume]]
 
 * Todo
 - [X] Remove numbers from headers, most likely an org export option needs toggled or a tag needs added.
@@ -22,6 +24,7 @@
 - [X] +Change CSS to taste.+ Can be done in org.
 - [X] +Manually change HTML to have links open in a new tab.+ Forgot ~ATTR_HTML~ is a thing.
 - [X] Manually add top link to sidebar.
+- [X] Add resume and link.
 - [ ] Await input.
 
 [[file:./assets/icons/vim-small.png]][[file:./assets/icons/github-small.png]][[file:./assets/icons/python-small.png]][[file:./assets/icons/html5-small.png]][[file:./assets/icons/css3-small.png]][[file:./assets/icons/javascript-small.png]][[file:./assets/icons/nodejs-small.png]][[file:./assets/icons/react-small.png]][[file:./assets/icons/postgresql-small.png]][[file:./assets/icons/firebase-small.png]][[file:./assets/icons/googlecloud-small.png]][[file:./assets/icons/bulma-small.png]][[file:./assets/icons/bootstrap-small.png]][[file:./assets/icons/linux-small.png]][[file:./assets/icons/windows-small.png]][[file:./assets/icons/apple-small.png]]
