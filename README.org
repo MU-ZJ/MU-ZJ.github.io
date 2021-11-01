@@ -1,66 +1,102 @@
-#+TITLE: Portfolio
+#+TITLE: Zachary Murphy - Full Stack Software Engineer
 #+AUTHOR: Zachary Murphy
 #+OPTIONS: num:nil timestamp:nil author:nil
 #+SETUPFILE: /home/wombat/Github/org-html-themes/org/theme-readtheorg-local.setup
 #+EXPORT_FILE_NAME: index.html
 #+STARTUP: inlineimages
+#+HTML_HEAD_EXTRA: <style type="text/css">.title, h4 {text-align: center !important;}</style>
+
+#+ATTR_HTML: :target _blank :style text-align: center;
+[[https://github.com/MU-ZJ][Github]] - [[https://www.linkedin.com/in/zachary-murphy-33249a20b/][LinkedIn]]
 
 * Todo
 - [X] Remove numbers from headers, most likely an org export option needs toggled or a tag needs added.
-- [-] Fix all broken links.
+- [X] Fix all broken links.
   + [X] Python
-  + [ ] HTML/CSS
-  + [ ] Javascript
-- [ ] Take screenshots of programs in use, embed in page.
+  + [X] HTML/CSS
+  + [X] Javascript
+- [X] Change title and tab name.
+- [X] Take screenshots of programs in use, embed in page.
 - [X] +Implement syntax highlighting if possible, for CLI programs.+ Implemented by default in ox-html.
 - [X] Clone CSS and apply locally.
-- [ ] Change CSS to taste.
-- [ ] Manually change HTML to have links open in a new tab.
+- [X] +Change CSS to taste.+ Can be done in org.
+- [X] +Manually change HTML to have links open in a new tab.+ Forgot ~ATTR_HTML~ is a thing.
+- [X] Manually add top link to sidebar.
+- [ ] Await input.
 
 [[file:./assets/icons/vim-small.png]][[file:./assets/icons/github-small.png]][[file:./assets/icons/python-small.png]][[file:./assets/icons/html5-small.png]][[file:./assets/icons/css3-small.png]][[file:./assets/icons/javascript-small.png]][[file:./assets/icons/nodejs-small.png]][[file:./assets/icons/react-small.png]][[file:./assets/icons/postgresql-small.png]][[file:./assets/icons/firebase-small.png]][[file:./assets/icons/googlecloud-small.png]][[file:./assets/icons/bulma-small.png]][[file:./assets/icons/bootstrap-small.png]][[file:./assets/icons/linux-small.png]][[file:./assets/icons/windows-small.png]][[file:./assets/icons/apple-small.png]]
 
 * Projects
-- [[https://github.com/MU-ZJ/nasa-project][Mars Rover Gallery]]
-  + [[https://nasagallery.herokuapp.com/][Live Link]]
-- [[https://github.com/MU-ZJ/AtlantaTouristApp][Atlanta Tourist Location Application]]
-- [[https://github.com/Murphy-ZJ/food-in-fridge][Recipe Search Application]]
-  + [[https://apricot-custard-84020.herokuapp.com][Live Link]]
-* Python
-- [[https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-2/activity1.py][Name Input Script]]
-- [[https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-2/activity2.py][Simple Tip Calculator]]
-- [[https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-2/assignment1.py][Simple Calculator]]
-- [[https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-2/assignment2.py][Even/Odd Script]]
-- [[https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-2/assignment3.py][FizzBuzz Script]]
-- [[https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-3/assignment1.py][Factorial Script]]
-- [[https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-3/assignment2.py][Palindrome Script]]
-- [[https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-3/assignment3.py][Prime Number Script]]
-- [[https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Classes-Files-UnitTests/Day-4/activity1.py][Name Input Script w/String Interpolation]]
-- [[https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Classes-Files-UnitTests/Day-4/activity2.py][Simple Address List]]
-- [[https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Classes-Files-UnitTests/Day-4/activity3.py][Python Nested Dictionary Example]]
-- [[https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-4/assignment.py][Simple Task List]]
-- [[https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-5/activity.py][Bubble Sort Script]]
-- [[https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-5/algorithms.py][Misc Algorithms (Perfect Squares/Power of Calc/ Multiples Script)]]
-- [[https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Classes-Files-UnitTests/Day-1/Activity1.py][User and Address w/Classes]]
-- [[https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Classes-Files-UnitTests/Day-1/Activity2.py][Simple Bank Account w/Classes]]
-- [[https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Classes-Files-UnitTests/Day-1/assignment.py][Simple Grocery Application]]
-- [[https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Classes-Files-UnitTests/Day-2/activity1.py][Simple Exceptions Example]]
-- [[https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Classes-Files-UnitTests/Day-2/activity2.py][Unit Test Example]]
-- [[https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Classes-Files-UnitTests/Day-3/activity4.py][Duplicate Removal From File]]
-- [[https://github.com/MU-ZJ/MU-ZJ/tree/master/Python-Classes-Files-UnitTests/PoolTable][Pool Table Project]]
+*** Mars Rover Gallery
 
-* HTML/CSS
-- [[file:./HTML-CSS-FlexBox-ResponsiveDesign/Day-1/Assignment][Simple Recipes Website]
-- [[file:./HTML-CSS-FlexBox-ResponsiveDesign/Day-3/assignment][Basic Flexbox Layout Template]
-- [[file:./HTML-CSS-FlexBox-ResponsiveDesign/Day-3/assignment2][Iron Man Reactor Animation]
-- [[file:./HTML-CSS-FlexBox-ResponsiveDesign/Day-5][Engadget Website]
+#+ATTR_HTML: :target _blank :style text-align: center;
+[[https://nasagallery.herokuapp.com/][https://nasagallery.herokuapp.com]] - [[https://github.com/MU-ZJ/nasa-project][https://github.com/MU-ZJ/nasa-project]]
 
-* Javascript Introduction
-- [[file:./JS-introduction/Day-1/scripts/assignment1.js][Misc JS Exercises]
-- [[file:./JS-introduction/Day-2/Assignment][JS ToDo List]
-- [[file:./JS-introduction/Day-3/Assignment][Restaurant Menu]
-- [[file:./JS-introduction/Day-4/Assignment][News Website]
-- [[file:./JS-introduction/Day-5/scripts/activity.js][Email Validation]
-- [[file:./Firebase-APIs-Promises/Day-1/Assignment][Super Hero Film Site w/API]
-- [[file:./Firebase-APIs-Promises/Day-2/Assignment][Coffee Orders w/API]
-- [[file:./Firebase-APIs-Promises/Day-3/Assignment][Weather Application]
-- [[file:./Firebase-APIs-Promises/Day-4/Assignment][Grocery Application w/Firebase]
+A react project utilizing the NASA API to display images from various sources. The project pulls images directly from the NASA API, then loops through and inserts the image links into HTML cards utilizing Reacts’ useEffect and useState features.
+  #+ATTR_HTML: :width 100% :target _blank
+  [[file:./assets/images/nasa-homepage.png][file:./assets/images/nasa-homepage.png]]
+  #+ATTR_HTML: :width 100% :target _blank
+  [[file:./assets/images/nasa-gallery.png][file:./assets/images/nasa-gallery.png]]
+
+*** Atlanta Tourist Location Website
+
+#+ATTR_HTML: :target _blank :style text-align: center;
+[[https://atlantatouristapp.web.app/index.html][https://atlantatouristapp.web.app/index.html]] - [[https://github.com/MU-ZJ/AtlantaTouristApp][https://github.com/MU-ZJ/AtlantaTouristApp]]
+
+A short list of tourist attractions in Atlanta, Georgia. Google maps has been integrated using the Google maps and directions APIs, allowing the site to create a route leading from the users' location to the specified attraction.
+  #+ATTR_HTML: :width 100% :target _blank
+  [[file:./assets/images/tourist-homepage.png][file:./assets/images/tourist-homepage.png]]
+  #+ATTR_HTML: :width 100% :target _blank
+  [[file:./assets/images/tourist-map.png][file:./assets/images/tourist-map.png]]
+
+*** Recipe Search Website
+
+#+ATTR_HTML: :target _blank :style text-align: center;
+[[https://apricot-custard-84020.herokuapp.com][https://apricot-custard-84020.herokuapp.com]] - [[https://github.com/MU-ZJ/food-in-fridge][https://github.com/MU-ZJ/food-in-fridge]]
+
+A website which takes ingredients as an input, and presents the user with recipes using those ingredients. Ingredients needed for the recipe can be added to a shopping list, then removed as they are aqcuired. Once all ingredients are checked off, preparation instructions are provided.
+  #+ATTR_HTML: :width 100% :target _blank
+  [[file:./assets/images/food-homepage.png][file:./assets/images/food-homepage.png]]
+  #+ATTR_HTML: :width 100% :target _blank
+  [[file:./assets/images/food-gallery.png][file:./assets/images/food-gallery.png]]
+
+* Miscellaneous Code
+*** Python
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-2/activity1.py" target="_blank">Name Input Script</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-2/activity2.py" target="_blank">Simple Tip Calculator</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-2/assignment1.py" target="_blank">Simple Calculator</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-2/assignment2.py" target="_blank">Even/Odd Script</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-2/assignment3.py" target="_blank">FizzBuzz Script</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-3/assignment1.py" target="_blank">Factorial Script</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-3/assignment2.py" target="_blank">Palindrome Script</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-3/assignment3.py" target="_blank">Prime Number Script</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Classes-Files-UnitTests/Day-4/activity1.py" target="_blank">Name Input Script w/String Interpolation</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Classes-Files-UnitTests/Day-4/activity2.py" target="_blank">Simple Address List</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Classes-Files-UnitTests/Day-4/activity3.py" target="_blank">Python Nested Dictionary Example</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-4/assignment.py" target="_blank">Simple Task List</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-5/activity.py" target="_blank">Bubble Sort Script</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Introduction/Day-5/algorithms.py" target="_blank">Misc Algorithms (Perfect Squares/Power of Calc/ Multiples Script)</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Classes-Files-UnitTests/Day-1/Activity1.py" target="_blank">User and Address w/Classes</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Classes-Files-UnitTests/Day-1/Activity2.py" target="_blank">Simple Bank Account w/Classes</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Classes-Files-UnitTests/Day-1/assignment.py" target="_blank">Simple Grocery Application</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Classes-Files-UnitTests/Day-2/activity1.py" target="_blank">Simple Exceptions Example</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Classes-Files-UnitTests/Day-2/activity2.py" target="_blank">Unit Test Example</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/Python-Classes-Files-UnitTests/Day-3/activity4.py" target="_blank">Duplicate Removal From File</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/tree/master/Python-Classes-Files-UnitTests/PoolTable" target="_blank">Pool Table Project</a>@@
+
+*** HTML/CSS
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/tree/master/HTML-CSS-FlexBox-ResponsiveDesign/Day-1/Assignment" target="_blank">Simple Recipes Website</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/tree/master/HTML-CSS-FlexBox-ResponsiveDesign/Day-3/assignment" target="_blank">Basic Flexbox Layout Template</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/tree/master/HTML-CSS-FlexBox-ResponsiveDesign/Day-3/assignment2" target="_blank">Iron Man Reactor Animation</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/tree/master/HTML-CSS-FlexBox-ResponsiveDesign/Day-5" target="_blank">Engadget Website</a>@@
+
+*** Javascript Introduction
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/JS-introduction/Day-1/scripts/assignment1.js" target="_blank">Misc JS Exercises</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/tree/master/JS-introduction/Day-2/Assignment" target="_blank">JS ToDo List</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/tree/master/JS-introduction/Day-3/Assignment" target="_blank">Restaurant Menu</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/tree/master/JS-introduction/Day-4/Assignment" target="_blank">News Website</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/blob/master/JS-introduction/Day-5/scripts/activity.js" target="_blank">Email Validation</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/tree/master/Firebase-APIs-Promises/Day-1/Assignment" target="_blank">Super Hero Film Site w/API</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/tree/master/Firebase-APIs-Promises/Day-2/Assignment" target="_blank">Coffee Orders w/API</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/tree/master/Firebase-APIs-Promises/Day-3/Assignment" target="_blank">Weather Application</a>@@
+- @@html:<a href="https://github.com/MU-ZJ/MU-ZJ/tree/master/Firebase-APIs-Promises/Day-4/Assignment" target="_blank">Grocery Application w/Firebase</a>@@
