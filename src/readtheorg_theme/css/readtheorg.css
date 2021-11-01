@@ -274,6 +274,10 @@ dl dd{
     img{
         width:100%;
         height:auto}
+
+    #devicons img{
+        display: none !important;
+    }
 }
 
 @media screen and (max-width: 480px){
@@ -1134,4 +1138,4 @@ h2.footnotes{
     /* padding: 10px 20px 10px 60px; */
     padding: 9px 12px;
     margin-bottom: 24px;
-    font-family:"Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif}
+    font-family:"Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif},
