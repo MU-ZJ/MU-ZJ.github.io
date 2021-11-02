@@ -275,8 +275,8 @@ dl dd{
         width:100%;
         height:auto}
 
-    #devicons img{
-        display: none !important;
+     #devicons{
+        grid-template-columns: repeat(4,auto) !important;
     }
 }
 

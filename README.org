@@ -4,21 +4,22 @@
 #+SETUPFILE: /home/wombat/Github/org-html-themes/org/theme-readtheorg-local.setup
 #+EXPORT_FILE_NAME: index.html
 #+STARTUP: inlineimages
-#+HTML_HEAD_EXTRA: <style type="text/css">.title, h4 {text-align: center !important;}</style>
 
 #+ATTR_HTML: :target _blank :style text-align: center;
 [[https://github.com/MU-ZJ][Github]] - [[https://www.linkedin.com/in/zachary-murphy-33249a20b/][LinkedIn]] - [[file:./assets/murphy-zachary-resume-2021.pdf][Resume]]
 
-[[file:./assets/icons/vim-small.png]][[file:./assets/icons/github-small.png]][[file:./assets/icons/python-small.png]][[file:./assets/icons/html5-small.png]][[file:./assets/icons/css3-small.png]][[file:./assets/icons/javascript-small.png]][[file:./assets/icons/nodejs-small.png]][[file:./assets/icons/react-small.png]][[file:./assets/icons/postgresql-small.png]][[file:./assets/icons/firebase-small.png]][[file:./assets/icons/googlecloud-small.png]][[file:./assets/icons/bulma-small.png]][[file:./assets/icons/bootstrap-small.png]][[file:./assets/icons/linux-small.png]][[file:./assets/icons/windows-small.png]][[file:./assets/icons/apple-small.png]]
+[[file:./assets/icons/vim-small.png]][[file:./assets/icons/github-small.png]][[file:./assets/icons/python-small.png]][[file:./assets/icons/html5-small.png]][[file:./assets/icons/css3-small.png]][[file:./assets/icons/javascript-small.png]][[file:./assets/icons/nodejs-small.png]][[file:./assets/icons/react-small.png]]
+
+[[file:./assets/icons/postgresql-small.png]][[file:./assets/icons/firebase-small.png]][[file:./assets/icons/googlecloud-small.png]][[file:./assets/icons/bulma-small.png]][[file:./assets/icons/bootstrap-small.png]][[file:./assets/icons/linux-small.png]][[file:./assets/icons/windows-small.png]][[file:./assets/icons/apple-small.png]]
 
 * Projects
 
 *** Recipe Search Website
 
-#+ATTR_HTML: :target _blank :style text-align: center;
+#+ATTR_HTML: :target _blank;
 [[https://apricot-custard-84020.herokuapp.com][Website Link]]
 
-#+ATTR_HTML: :target _blank :style text-align: center;
+#+ATTR_HTML: :target _blank;
 [[https://github.com/MU-ZJ/food-in-fridge][Github Repository]]
 
 A website which takes ingredients as an input, and presents the user with recipes using those ingredients. Ingredients needed for the recipe can be added to a shopping list, then removed as they are aqcuired. Once all ingredients are checked off, preparation instructions are provided.
@@ -29,10 +30,10 @@ A website which takes ingredients as an input, and presents the user with recipe
 
 *** Mars Rover Gallery
 
-#+ATTR_HTML: :target _blank :style text-align: center;
+#+ATTR_HTML: :target _blank
 [[https://nasagallery.herokuapp.com/][Website Link]]
 
-#+ATTR_HTML: :target _blank :style text-align: center;
+#+ATTR_HTML: :target _blank
 [[https://github.com/MU-ZJ/nasa-project][Github Repository]]
 
 A React project utilizing a NASA API to display images from the Mars rovers. The project pulls images directly from the NASA API, then loops through and inserts the image links into HTML cards utilizing Reacts’ useEffect and useState features.
@@ -43,10 +44,10 @@ A React project utilizing a NASA API to display images from the Mars rovers. The
 
 *** Atlanta Tourist Location Website
 
-#+ATTR_HTML: :target _blank :style text-align: center;
+#+ATTR_HTML: :target _blank
 [[https://atlantatouristapp.web.app/index.html][Website Link]]
 
-#+ATTR_HTML: :target _blank :style text-align: center;
+#+ATTR_HTML: :target _blank
 [[https://github.com/MU-ZJ/AtlantaTouristApp][Github Repository]]
 
 A short list of tourist attractions in Atlanta, Georgia. Google maps has been integrated using the Google maps and directions APIs, allowing the site to create a route leading from the users' location to the specified attraction.
