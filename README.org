@@ -6,36 +6,36 @@
 #+STARTUP: inlineimages
 #+HTML_HEAD_EXTRA: <style type="text/css">.title, h4 {text-align: center !important;}</style>
 
-* Website is now disconnected from the readme. Make all further changes directly to the HTML/CSS.
-
 #+ATTR_HTML: :target _blank :style text-align: center;
 [[https://github.com/MU-ZJ][Github]] - [[https://www.linkedin.com/in/zachary-murphy-33249a20b/][LinkedIn]] - [[file:./assets/murphy-zachary-resume-2021.pdf][Resume]]
-
-* Todo
-- [X] Remove numbers from headers, most likely an org export option needs toggled or a tag needs added.
-- [X] Fix all broken links.
-  + [X] Python
-  + [X] HTML/CSS
-  + [X] Javascript
-- [X] Change title and tab name.
-- [X] Take screenshots of programs in use, embed in page.
-- [X] +Implement syntax highlighting if possible, for CLI programs.+ Implemented by default in ox-html.
-- [X] Clone CSS and apply locally.
-- [X] +Change CSS to taste.+ Can be done in org.
-- [X] +Manually change HTML to have links open in a new tab.+ Forgot ~ATTR_HTML~ is a thing.
-- [X] Manually add top link to sidebar.
-- [X] Add resume and link.
-- [ ] Await input.
 
 [[file:./assets/icons/vim-small.png]][[file:./assets/icons/github-small.png]][[file:./assets/icons/python-small.png]][[file:./assets/icons/html5-small.png]][[file:./assets/icons/css3-small.png]][[file:./assets/icons/javascript-small.png]][[file:./assets/icons/nodejs-small.png]][[file:./assets/icons/react-small.png]][[file:./assets/icons/postgresql-small.png]][[file:./assets/icons/firebase-small.png]][[file:./assets/icons/googlecloud-small.png]][[file:./assets/icons/bulma-small.png]][[file:./assets/icons/bootstrap-small.png]][[file:./assets/icons/linux-small.png]][[file:./assets/icons/windows-small.png]][[file:./assets/icons/apple-small.png]]
 
 * Projects
+
+*** Recipe Search Website
+
+#+ATTR_HTML: :target _blank :style text-align: center;
+[[https://apricot-custard-84020.herokuapp.com][Website Link]]
+
+#+ATTR_HTML: :target _blank :style text-align: center;
+[[https://github.com/MU-ZJ/food-in-fridge][Github Repository]]
+
+A website which takes ingredients as an input, and presents the user with recipes using those ingredients. Ingredients needed for the recipe can be added to a shopping list, then removed as they are aqcuired. Once all ingredients are checked off, preparation instructions are provided.
+  #+ATTR_HTML: :width 100% :target _blank
+  [[file:./assets/images/food-homepage.png][file:./assets/images/food-homepage.png]]
+  #+ATTR_HTML: :width 100% :target _blank
+  [[file:./assets/images/food-gallery.png][file:./assets/images/food-gallery.png]]
+
 *** Mars Rover Gallery
 
 #+ATTR_HTML: :target _blank :style text-align: center;
-[[https://nasagallery.herokuapp.com/][https://nasagallery.herokuapp.com]] - [[https://github.com/MU-ZJ/nasa-project][https://github.com/MU-ZJ/nasa-project]]
+[[https://nasagallery.herokuapp.com/][Website Link]]
 
-A react project utilizing the NASA API to display images from various sources. The project pulls images directly from the NASA API, then loops through and inserts the image links into HTML cards utilizing Reacts’ useEffect and useState features.
+#+ATTR_HTML: :target _blank :style text-align: center;
+[[https://github.com/MU-ZJ/nasa-project][Github Repository]]
+
+A React project utilizing a NASA API to display images from the Mars rovers. The project pulls images directly from the NASA API, then loops through and inserts the image links into HTML cards utilizing Reacts’ useEffect and useState features.
   #+ATTR_HTML: :width 100% :target _blank
   [[file:./assets/images/nasa-homepage.png][file:./assets/images/nasa-homepage.png]]
   #+ATTR_HTML: :width 100% :target _blank
@@ -44,24 +44,16 @@ A react project utilizing the NASA API to display images from various sources. T
 *** Atlanta Tourist Location Website
 
 #+ATTR_HTML: :target _blank :style text-align: center;
-[[https://atlantatouristapp.web.app/index.html][https://atlantatouristapp.web.app/index.html]] - [[https://github.com/MU-ZJ/AtlantaTouristApp][https://github.com/MU-ZJ/AtlantaTouristApp]]
+[[https://atlantatouristapp.web.app/index.html][Website Link]]
+
+#+ATTR_HTML: :target _blank :style text-align: center;
+[[https://github.com/MU-ZJ/AtlantaTouristApp][Github Repository]]
 
 A short list of tourist attractions in Atlanta, Georgia. Google maps has been integrated using the Google maps and directions APIs, allowing the site to create a route leading from the users' location to the specified attraction.
   #+ATTR_HTML: :width 100% :target _blank
   [[file:./assets/images/tourist-homepage.png][file:./assets/images/tourist-homepage.png]]
   #+ATTR_HTML: :width 100% :target _blank
   [[file:./assets/images/tourist-map.png][file:./assets/images/tourist-map.png]]
-
-*** Recipe Search Website
-
-#+ATTR_HTML: :target _blank :style text-align: center;
-[[https://apricot-custard-84020.herokuapp.com][https://apricot-custard-84020.herokuapp.com]] - [[https://github.com/MU-ZJ/food-in-fridge][https://github.com/MU-ZJ/food-in-fridge]]
-
-A website which takes ingredients as an input, and presents the user with recipes using those ingredients. Ingredients needed for the recipe can be added to a shopping list, then removed as they are aqcuired. Once all ingredients are checked off, preparation instructions are provided.
-  #+ATTR_HTML: :width 100% :target _blank
-  [[file:./assets/images/food-homepage.png][file:./assets/images/food-homepage.png]]
-  #+ATTR_HTML: :width 100% :target _blank
-  [[file:./assets/images/food-gallery.png][file:./assets/images/food-gallery.png]]
 
 * Miscellaneous Code
 *** Python
