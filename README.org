@@ -6,7 +6,7 @@
 #+STARTUP: inlineimages
 
 #+ATTR_HTML: :target _blank :style text-align: center;
-[[https://github.com/MU-ZJ][Github]] - [[https://www.linkedin.com/in/zachary-murphy-33249a20b/][LinkedIn]] - [[file:./assets/murphy-zachary-resume-2021.pdf][Resume]]
+[[https://github.com/MU-ZJ][Github]] - [[https://www.linkedin.com/in/zachary-murphy-33249a20b/][LinkedIn]] - [[file:./assets/murphy-zachary-resume-2022.pdf][Resume]]
 
 [[file:./assets/icons/vim-small.png]][[file:./assets/icons/github-small.png]][[file:./assets/icons/python-small.png]][[file:./assets/icons/html5-small.png]][[file:./assets/icons/css3-small.png]][[file:./assets/icons/javascript-small.png]][[file:./assets/icons/nodejs-small.png]][[file:./assets/icons/react-small.png]]
 
